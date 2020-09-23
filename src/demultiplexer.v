@@ -1,8 +1,8 @@
-module demultiplexer(
-	input		data_in,
+module demultiplexer(			//Modulo de-multiplexor
+	input		data_in,		//Entrada
+	input		selector,
 	output reg	out_0,
-	output reg	out_1,
-	input		selector
+	output reg	out_1
 );
 	
 	always @(*)
